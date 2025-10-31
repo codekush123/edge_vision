@@ -45,5 +45,6 @@ Monitor human posture in real time using computer vision, then automatically adj
 
 ---
 
-## Architecture
+## Images
 
+![Bad Posture]()
