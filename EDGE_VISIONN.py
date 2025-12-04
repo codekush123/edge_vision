@@ -7,7 +7,6 @@ import requests
 
 
 def set_desk_height(position: int):
-    """Simulate adjusting a smart desk height via Home Assistant API."""
     hass_url = "http://fake-homeassistant.local:8123/api/services/cover/set_cover_position"
     token = "FAKE_LONG_LIVED_TOKEN"
     entity_id = "cover.fake_desk"
@@ -28,7 +27,6 @@ def set_desk_height(position: int):
 
 
 def set_smart_bulb_brightness(brightness: int):
-    """Simulate adjusting smart bulb brightness via Home Assistant API."""
     hass_url = "http://fake-homeassistant.local:8123/api/services/light/turn_on"
     token = "FAKE_LONG_LIVED_TOKEN"
     entity_id = "light.fake_smart_bulb"
